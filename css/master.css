@@ -1,0 +1,148 @@
+
+header {
+  background: #ffffff;
+  padding: 12px;
+}
+
+header ul {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+header a {
+  text-decoration: none;
+  color : rgb(0, 0, 0);
+  padding: 12px;
+  display: block;
+}
+
+.hero {
+  background: rgb(05, 0, 0) url('images/fire.jpg') top center no-repeat;
+  color : #fff;
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+}
+.hero h1 {
+font-family: 'Vollkorn', serif;
+text-align: center;
+font-size: 300px;
+color:white;
+padding-top: 200px;
+}
+
+
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: rgb(0, 0, 0);
+}
+
+.even {
+  background: rgb(0, 0, 0);
+}
+
+#section01 {
+  background: rgb(134, 0, 0) url('images/crabe.jpg') top center no-repeat;
+  color: #FFFFFF;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display:flex;
+  align-items: center;
+  }
+
+#section02 {
+  background: rgb(134, 0, 0) url('images/loupmouton.jpg') top center no-repeat;
+  color: #FFFFFF;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display:flex;
+  align-items: center;
+  }
+
+  #section03 {
+    background: rgb(134, 0, 0) url('images/monkey.jpg') top center no-repeat;
+    color: #FFFFFF;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    }
+
+    #section04 {
+      background: rgb(134, 0, 0) url('images/birds.jpg') top center no-repeat;
+      color: #FFFFFF;
+      min-height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+      display:flex;
+      align-items: center;
+      }
+
+      #section05 {
+        background: rgb(134, 0, 0) url('images/ox.jpg') top center no-repeat;
+        color: #FFFFFF;
+        min-height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+        display:flex;
+        align-items: center;
+        }
+
+  #section04 p {
+    color: rgb(0, 0, 0);
+    }
+
+    #section04 h1 {
+      color: rgb(0, 0, 0);
+      }
+
+/* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
+
+.image-block {
+  max-width: 640px;
+background-size: cover;
+
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+
+}
+
+
+
+
+/*
+
+// Small devices
+
+// Medium devices (landscape phones, 576px and up)
+@media (min-width: 640px) { ... }
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Extra large devices
+
+@media (min-width: 1440px) { ... }
+
+*/
