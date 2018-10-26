@@ -7,11 +7,14 @@ header {
 header ul {
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 
 }
 
 header li {
-  display: inline-block;
+  display: flex;
   border: 1px solid rgb(0, 0, 0);
 }
 
@@ -21,6 +24,7 @@ header a {
   padding: 12px;
   display: block;
 }
+
 
 .hero {
   background: rgb(05, 0, 0) url('images/fire.jpg') top center no-repeat;
@@ -41,6 +45,7 @@ padding-top: 200px;
 section {
   min-height: 90vh;
   padding: 42px;
+  display: flex;
 }
 
 .odd {
