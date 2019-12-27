@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Yeseva+One');
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Vollkorn|Yeseva+One');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Vollkorn|Yeseva+One');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Yeseva+One|Vollkorn|Noto+Serif|Montserrat:700');
 
 html {
   font-size: 1em;
@@ -22,6 +19,26 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+}
+
+#section01 {
+  font-family: 'Merriweather';
+}
+
+#section02 {
+  font-family: 'Noto';
+}
+
+#section03 {
+  font-family: 'Vollkorn';
+}
+
+#section04 {
+  font-family: 'Montserrat';
+}
+
+#section05 {
+  font-family: 'Yeseva One';
 }
 
 h1 {
